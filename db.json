@@ -1,0 +1,91 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Admin Principal",
+      "email": "admin@riwi.com",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "nombre": "Usuario Normal",
+      "email": "user@riwi.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "nombre": "Juan Perez",
+      "email": "juan@gmail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "nombre": "Guillermo De Leon",
+      "email": "guillermo@gmail.com",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "nombre": "pedro de leon",
+      "email": "pedro45@gmail.com",
+      "role": "user",
+      "password": "2345",
+      "id": "kpjlmyEolp8"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "1",
+      "titulo": "Setup del repositorio",
+      "descripcion": "Inicializar Git repo y configurar el pipeline CI.",
+      "status": "in-progress",
+      "usuarioId": 1
+    },
+    {
+      "id": "2",
+      "titulo": "Diseño de base de datos",
+      "descripcion": "Definir relaciones entre entidades y scripts de migración.",
+      "status": "todo",
+      "usuarioId": 2
+    },
+    {
+      "id": "3",
+      "titulo": "Construir endpoints REST",
+      "descripcion": "Implementar CRUD para usuarios y tareas con validación.",
+      "status": "review",
+      "usuarioId": 3
+    },
+    {
+      "id": "4",
+      "titulo": "Crear UI de login",
+      "descripcion": "Diseñar e implementar las pantallas de autenticación.",
+      "status": "in-progress",
+      "usuarioId": 2
+    },
+    {
+      "id": "5",
+      "titulo": "Implementar Kanban board",
+      "descripcion": "Construir la interfaz drag-and-drop con filtros por columna.",
+      "status": "todo",
+      "usuarioId": 4
+    },
+    {
+      "id": "6",
+      "titulo": "Escribir pruebas unitarias",
+      "descripcion": "Cubrir todas las funciones del servicio con Jest, mínimo 80%.",
+      "status": "done",
+      "usuarioId": 3
+    },
+    {
+      "id": "7",
+      "titulo": "Auditoría de rendimiento",
+      "descripcion": "Ejecutar Lighthouse y optimizar tiempos de carga.",
+      "status": "review",
+      "usuarioId": 1
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
